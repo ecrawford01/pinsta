@@ -1,0 +1,19 @@
+{
+  "name": "pinsta",
+  "version": "1.0.0",
+  "description": "a cloned instagram named pinsta",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ecrawford01/pinsta.git"
+  },
+  "author": "ecrawf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ecrawford01/pinsta/issues"
+  },
+  "homepage": "https://github.com/ecrawford01/pinsta#readme"
+}
