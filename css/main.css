@@ -1,0 +1,137 @@
+header {
+  background: rgba(221, 221, 221, 0.925);
+  border-bottom: 1px solid #ccc;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 20px;
+}
+
+header > h2 {
+  box-sizing: border-box;
+  width: 15%;
+  display: inline-block;
+  padding: 3px;
+  text-align: center;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 30px;
+  letter-spacing: -1px;
+  word-spacing: 2px;
+  color: #db0000;
+  font-weight: 700;
+  text-decoration: none solid rgb(68, 68, 68);
+  font-style: italic;
+  font-variant: small-caps;
+  text-transform: capitalize;
+}
+
+header > input {
+  box-sizing: border-box;
+  width: 15%;
+  display: inline-block;
+  padding: 3px;
+  text-align: center;
+}
+
+header > a {
+  box-sizing: border-box;
+  width: 15%;
+  display: inline-block;
+  padding: 3px;
+  text-align: center;
+}
+
+.fas {
+  color: rgba(255, 0, 0, 0.534);
+  font-size: 25px;
+}
+
+.fas:hover {
+  color: rgb(1, 221, 1);
+}
+
+body {
+  background: rgba(255, 255, 255, 0.952);
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.952);
+  padding-top: 100px;
+  height: 100%;
+  width: 100%;
+  top: 75px;
+  margin: 0 auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+.card {
+  background-color: rgb(243, 193, 193);
+  margin: 0 auto;
+  width: 500px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: auto;
+}
+
+.card-header {
+  padding: 10px;
+  margin-top: -15px;
+}
+
+.profile-img {
+  display: inline-block;
+  background: red;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  position: relative;
+  top: 40px;
+  margin-right: 10px;
+}
+
+.profile-info {
+  display: inline-block;
+}
+.username {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  margin-left: 50px;
+}
+
+.location {
+  font-size: 12px;
+  margin-left: 50px;
+}
+.card-header-time {
+  float: right;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  position: relative;
+}
+
+.content > img {
+  width: 100%;
+}
+
+.card-footer {
+  box-sizing: border-box;
+  padding: 15px;
+}
+
+.card-footer > span {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.card-footer .likes {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+p {
+  margin: 0;
+}

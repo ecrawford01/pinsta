@@ -1,0 +1,53 @@
+.info-head {
+  height: 225px;
+  width: 100%;
+  padding-top: 75px;
+  border-style: none none dotted none;
+  border-color: rgb(243, 193, 193);
+}
+
+.user-img {
+  display: inline-block;
+  background: red;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  position: relative;
+  top: 40px;
+  margin-left: 20px;
+}
+
+.info-head > .username {
+  font-family: "Open Sans", sans-serif;
+  margin-top: -100px;
+  padding-left: 150px;
+  font-size: 25px;
+}
+
+.info-head > .edit-button {
+  font-family: "Open Sans", sans-serif;
+  padding-left: 450px;
+  padding-bottom: 25px;
+  margin-top: -15px;
+}
+
+.info-head > .current-data {
+  font-family: "Open Sans", sans-serif;
+  padding-left: 185px;
+}
+
+.current-data > span {
+  padding: 15px;
+  font-weight: 700;
+}
+
+.description-box {
+  font-family: "Open Sans", sans-serif;
+  padding-top: 15px;
+  padding-left: 200px;
+}
+
+.description-box > .name {
+  padding-bottom: 5px;
+  font-weight: 600;
+}
