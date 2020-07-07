@@ -1,7 +1,7 @@
 .info-head {
-  height: 225px;
+  height: 175px;
   width: 100%;
-  padding-top: 75px;
+  padding-top: 80px;
   border-style: none none dotted none;
   border-color: rgb(243, 193, 193);
 }
@@ -9,31 +9,33 @@
 .user-img {
   display: inline-block;
   background: red;
-  height: 150px;
-  width: 150px;
+  height: 125px;
+  width: 125px;
   border-radius: 50%;
   position: relative;
   top: 40px;
-  margin-left: 20px;
+  margin-top: -20px;
+  margin-left: 0px;
+  margin-right: 28px;
 }
 
 .info-head > .username {
   font-family: "Open Sans", sans-serif;
-  margin-top: -100px;
-  padding-left: 150px;
+  margin-top: -80px;
+  margin-left: 27%;
   font-size: 25px;
 }
 
 .info-head > .edit-button {
   font-family: "Open Sans", sans-serif;
-  padding-left: 450px;
+  padding-left: 50%;
   padding-bottom: 25px;
-  margin-top: -15px;
+  margin-top: -20.5px;
 }
 
 .info-head > .current-data {
   font-family: "Open Sans", sans-serif;
-  padding-left: 185px;
+  padding-left: 27%;
 }
 
 .current-data > span {
@@ -44,10 +46,58 @@
 .description-box {
   font-family: "Open Sans", sans-serif;
   padding-top: 15px;
-  padding-left: 200px;
+  padding-left: 27%;
 }
 
 .description-box > .name {
   padding-bottom: 5px;
   font-weight: 600;
+}
+
+.row {
+  display: inline-block;
+  background: rgba(216, 110, 110, 0.466);
+  margin-top: 10px;
+  width: 100%;
+  height: 200px;
+  border-radius: 5%;
+}
+
+.row-img1 {
+  display: inline-block;
+  margin: 5px 5px 35px 5px;
+  padding-top: 20px;
+  width: 30.5%;
+  height: 160px;
+  background: green;
+  border-radius: 5%;
+}
+
+.row-img2 {
+  display: inline-block;
+  margin: 5px 5px 35px 5px;
+  padding-top: 20px;
+  width: 30.5%;
+  height: 160px;
+  background: green;
+  border-radius: 5%;
+}
+
+.row-img3 {
+  display: inline-block;
+  margin: 5px 5px 35px 5px;
+  padding-top: 20px;
+  width: 30.5%;
+  height: 160px;
+  background: green;
+  border-radius: 5%;
+}
+
+.row-2 {
+  display: inline-block;
+  background: rgba(216, 110, 110, 0.466);
+  margin-top: 10px;
+  width: 100%;
+  height: 200px;
+  border-radius: 5%;
 }
